@@ -1,0 +1,192 @@
+@import '~bootstrap-icons/font/bootstrap-icons.css';
+
+body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+    background-color: #1b1b1b;
+    color: white;
+}
+
+.btn-outline-secondary{
+    color: #fd7e14 !important;
+}
+
+.h1-winner{
+    color: white;
+    font-size: 4rem;
+    width: 100%;
+    text-align: center;
+    padding-top: 20%;
+}
+
+label{
+    font-size: 20px;
+    text-align: center;
+    color: #fd7e14;
+}
+
+.refresh{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    margin: 15px;
+}
+
+ol, ul {
+    padding-left: 30px;
+}
+
+.row{
+    --bs-gutter-x: 4rem !important;
+}
+
+.container-score {
+    height: 600px;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #fd7e14;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: yellow;
+}
+
+
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.board{
+    margin-top: 150px;
+}
+
+.plateau{
+    margin-top: 50px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.status {
+    margin-bottom: 10px;
+}
+
+.square {
+    background: #fff;
+    border: 1px solid #999;
+    border-radius: 15px;
+    float: left;
+    font-size: 64px;
+    font-weight: bold;
+    line-height: 34px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 33%;
+    height: 200px;
+}
+
+.square:focus {
+    outline: none;
+}
+
+.kbd-navigation .square:focus {
+    background: #ddd;
+}
+
+.btn-menu{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border: #fd7e14 1px solid;
+}
+
+.menu{
+    height: 150px;
+}
+.btn-secondary{
+    height: 80px !important;
+    margin-top: 50px;
+}
+.btn-menu:hover{
+    background: #fd7e14;
+    border: white 1px solid;
+}
+.btn-menu:hover .bi{
+    color: white;
+}
+
+.joueurs{
+    font-size: 25px;
+}
+
+.joueurs span{
+    color: #fd7e14;
+}
+
+.bi{
+    color: #fd7e14;
+    font-size: 25px;
+}
+
+.bi-caret-right-square{
+    font-size: 45px;
+}
+
+.game {
+    margin-left: 20px;
+}
+
+.game-info {
+    margin-top: 20px;
+}
+
+li button{
+    border: none;
+    padding: 10px;
+    color: white;
+    text-align: left;
+}
+
+.game-info div{
+    font-size: 25px;
+    color: green;
+}
+
+li{
+    list-style: none;
+}
+
+.winner{
+    background-color: crimson;
+    color: white;
+}
+
+.col-4{
+    margin-left: auto;
+    margin-right: auto;
+}

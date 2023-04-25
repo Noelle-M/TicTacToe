@@ -1,0 +1,11 @@
+// Définition des types d'action
+export const MAKE_MOVE = 'MAKE_MOVE';
+export const JUMP_TO = 'JUMP_TO';
+export const RESET_GAME = 'RESET_GAME';
+export const ADD_PLAYER1 = 'ADD_PLAYER1';
+export const ADD_PLAYER2 = 'ADD_PLAYER2';
+export const ADD_PLAYER_SUCCESS = 'ADD_PLAYER_SUCCESS';
+export const ADD_PLAYER_FAILURE = 'ADD_PLAYER_FAILURE';
+export const FETCH_PLAYERS_SUCCESS = 'FETCH_PLAYERS_SUCCESS';
+export const FETCH_PLAYERS_FAILURE = 'FETCH_PLAYERS_FAILURE';
+export const FETCH_PLAYERS_REQUEST = 'FETCH_PLAYERS_REQUEST';
