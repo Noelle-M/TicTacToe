@@ -1,6 +1,7 @@
 {
     "name": "morpion",
     "version": "1.0.0",
+    "homepage": "https://Noelle-M.github.io/TicTacToe",
     "devDependencies": {
         "@babel/core": "^7.17.0",
         "@babel/preset-env": "^7.16.0",
@@ -20,6 +21,7 @@
         "dev": "encore dev",
         "watch": "encore dev --watch",
         "build": "encore production --progress",
+        "predeploy": "npm run build",
         "deploy": "gh-pages -d build"
     },
     "dependencies": {
