@@ -25,6 +25,7 @@ symfony serve -d
 npm run dev -- --watch
 ````
 ``symfony console`` suppose que vous avez installé le ``cli``, sinon remplacer par ``php bin/console``
+
 Appli installée et accessible sur votre serveur local : http://127.0.0.1:8000/
 
 
