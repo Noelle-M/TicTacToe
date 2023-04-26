@@ -18,7 +18,7 @@ git clone git@github.com:Noelle-M/TicTacToe.git
 npm install
 composer install
 symfony console doctrine:database:create
-symfonfony console make:migration
+symfony console make:migration
 symfony console d:m:m
 
 symfony serve -d
