@@ -1,5 +1,31 @@
 # TicTacToe
 React Symfony
+
+Pour installer TicTacToe :
+````
+HTTPS
+git clone https://github.com/Noelle-M/TicTacToe.git
+
+ou
+
+SSH
+git clone git@github.com:Noelle-M/TicTacToe.git
+````
+### Pour lancer TicTacToe
+````
+npm install
+composer install
+symfony console doctrine:database:create
+symfonfony console make:migration
+symfony console d:m:m
+
+symfony serve -d
+npm run dev -- --watch
+````
+``symfony console`` suppose que vous avez le installé le ``cli``, sinon le remplacer par ``php bin/console``
+Appli installée et accessible sur votre serveur local : http://127.0.0.1:8000/
+
+
 # tuto-React-morpion
 
 Intégrer l’appli React dans une application symfony
