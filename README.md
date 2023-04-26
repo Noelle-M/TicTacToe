@@ -2,6 +2,7 @@
 React Symfony
 
 Pour installer TicTacToe :
+
 "php": ">=8.1",
 ````
 HTTPS
