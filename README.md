@@ -3,7 +3,7 @@ React Symfony
 
 Pour installer TicTacToe :
 
-"php": ">=8.1",
+require "php": ">=8.1",
 ````
 HTTPS
 git clone https://github.com/Noelle-M/TicTacToe.git
